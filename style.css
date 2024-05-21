@@ -1,0 +1,65 @@
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: url(./gym.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: rgba(36, 42, 119, 0.575);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.575);
+            color: #01073d;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.575);
+            border-radius: 10px;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.575);
+            color: #01073d;
+            font-size: 1.2em;
+        }
+        td {
+            background-color: rgba(255, 255, 255, 0.575);
+            color: #01073d;
+        }
+        a {
+            color: #1768e2;
+            text-decoration:underline;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            text-align: center;
+            margin: 40px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.575);
+            color: #01073d;
+            margin: 30px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: rgba(0, 0, 0, 0.575);
+        }
